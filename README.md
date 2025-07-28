@@ -54,8 +54,8 @@ Pandas, NumPy, Matplotlib, Scikit-learn
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/bitcoin-price-prediction.git
-cd bitcoin-price-prediction
+git https://github.com/aysannazarmohamady/Bitcoin-Price-Prediction-Trading-Signal-Generation
+cd Bitcoin-Price-Prediction-Trading-Signal-Generation
 ```
 
 2. **Install dependencies:**
@@ -137,22 +137,6 @@ Date       | Signal | Price    | Predicted | Confidence
 - [ ] **Real-time Deployment:** Live trading signal API
 - [ ] **Alternative Data:** News sentiment, social media analysis
 
-##  Project Structure
-
-```
-bitcoin-price-prediction/
-├── README.md                 # Project documentation
-├── bitcoin_prediction.ipynb  # Main notebook
-├── requirements.txt          # Dependencies
-├── data/                     # Dataset directory
-├── images/                   # Visualization outputs
-├── models/                   # Saved model files
-└── src/                      # Source code modules
-    ├── data_processing.py
-    ├── feature_engineering.py
-    ├── model_training.py
-    └── trading_signals.py
-```
 
 
 ##  Contributing
