@@ -1,7 +1,8 @@
 # Bitcoin-Price-Prediction-Trading-Signal-Generation
 An End-to-End Machine Learning Solution
 
-Project Overview
+**Project Overview**
+
 This project develops a sophisticated Bitcoin price prediction system using deep learning techniques, featuring comprehensive technical analysis and automated trading signal generation. The solution combines LSTM neural networks with carefully engineered technical indicators to forecast next-day Bitcoin prices and generate actionable trading signals.
 Technical Implementation
 Data Pipeline & Feature Engineering:
@@ -22,7 +23,8 @@ Developed bias-corrected signal generation with confidence scoring
 Implemented realistic backtesting framework including transaction costs
 Created risk management system with adaptive thresholds
 
-Key Challenges Resolved
+**Key Challenges Resolved**
+
 1. Model Overfitting: Initial model showed severe overfitting (training loss: 0.001, validation: 0.21). Resolved through architectural simplification and enhanced regularization.
 2. Feature Redundancy: Reduced feature space from 47 to 7 variables using domain expertise and correlation analysis, improving model generalization.
 3. Systematic Bias: Discovered 5.6% systematic underestimation in predictions. Implemented bias correction algorithm to improve signal accuracy.
@@ -41,7 +43,8 @@ Generated balanced signal distribution (46% BUY, 17% HOLD, 37% SELL)
 Realistic backtesting shows 195% returns vs 356% buy-and-hold
 Demonstrates strong risk management capabilities, particularly in identifying major market downturns
 
-Business Impact & Applications
+**Business Impact & Applications**
+
 Risk Management: Excellent at detecting potential price drops with high confidence (>90% for major sell signals)
 Market Timing: Provides valuable entry/exit decision support for portfolio managers
 Research Foundation: Serves as robust baseline for advanced ensemble methods and alternative data integration
