@@ -2,6 +2,12 @@
 
 > An end-to-end machine learning solution for Bitcoin price forecasting and automated trading signal generation using deep learning techniques.
 
+<img width="1126" height="713" alt="image" src="https://github.com/user-attachments/assets/fd687280-2c5f-454c-9ed4-b0d04de88fda" />
+
+<img width="968" height="705" alt="image" src="https://github.com/user-attachments/assets/82fc6336-b593-46a0-8efa-8f13c7a01d6d" />
+
+<img width="873" height="566" alt="image" src="https://github.com/user-attachments/assets/6b051a1f-4327-407a-b780-412a87032bd7" />
+
 
 
 ##  Project Overview
@@ -105,6 +111,9 @@ kaggle datasets download -d adilshamim8/bitcoin-historical-data
 ### 4. **Unrealistic Backtesting**
 - **Problem:** Initial backtest showed 153% returns (too good to be true)
 - **Solution:** Added transaction costs, proper time-series splitting, and conservative thresholds
+
+<img width="928" height="458" alt="image" src="https://github.com/user-attachments/assets/b08b2374-ba3b-4da7-8085-4ef50c19102e" />
+
 
 ##  Sample Results
 
